@@ -1,0 +1,28 @@
+const fishSpecies = [
+  'Šaran',
+  'Som',
+  'Smud',
+  'Pastrva',
+  'Linjak',
+  'Grgeč',
+  'Klen',
+  'Bolen',
+  'Deverika',
+  'Mrena',
+  'Lipljan',
+  'Potočna pastrva',
+  'Kalifornijska pastrva',
+  'Smuđ',
+  'Babuška',
+  'Crvenperka',
+  'Tolstolobik',
+  'Amur',
+  'Jesetra',
+  'Losos',
+  'Jez',
+  'Bjelica',
+  'Bucov',
+  'Štuka',
+];
+
+export default fishSpecies;

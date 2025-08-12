@@ -1,0 +1,128 @@
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #e0f7fa;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #00796b;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #004d40;
+}
+
+.catch-list {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #b2dfdb;
+}
+
+.catch-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.catch-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.catch-actions {
+  margin-top: 5px;
+}
+
+.catch-actions button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.catch-actions button:hover {
+  opacity: 0.8;
+}
+
+.filter-input {
+  max-width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #b2dfdb;
+  border-radius: 5px;
+}
+
+.form select {
+  padding: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 5px;
+}
+
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.catch-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.form select:invalid {
+  color: #999;
+}
+
+.success-message {
+  margin-top: 10px;
+  color: #2e7d32;
+  font-weight: bold;
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #c8e6c9;
+}
+
+.custom-upload-button {
+  display: inline-block;
+  background-color: #00796b;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 10px;
+
+}
